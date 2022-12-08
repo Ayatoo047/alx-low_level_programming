@@ -1,4 +1,8 @@
 #include<stdio.h>
+/**
+ *return the side of different data types
+ *
+ */
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));

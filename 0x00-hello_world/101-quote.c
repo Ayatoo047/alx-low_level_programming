@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<unistd.h>
-/* Prints without printf
+/**
+ * Prints without printf
  *
  */
 int main(void)

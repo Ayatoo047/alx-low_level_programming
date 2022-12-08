@@ -1,7 +1,8 @@
 #include<stdio.h>
-/* This prints a string
+/** 
+ * This prints a string
  *
- *
+ *Return: 0
  */
 int main(void)
 {
