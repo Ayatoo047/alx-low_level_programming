@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- *return the side of different data types
+ * Main is the entry point
+ *return 0 for success
  *
  */
 int main(void)

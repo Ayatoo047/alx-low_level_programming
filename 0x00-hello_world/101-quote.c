@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * Prints without printf
- *
+ * Main is the entry point
+ *  Return 1 for success
  */
 int main(void)
 {

@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * The prints a string with 
- * printf
+ * main is the entry point
+ *
+ * Return: Zero(0) for success
  */
 int main(void)
 {
