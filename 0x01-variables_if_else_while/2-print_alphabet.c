@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * main - Entry piont
  *
@@ -8,6 +8,7 @@ int main(void)
 
 {
 	char letters;
+
 	for (letters = 'a'; letters <= 'z'; letters++)
 	{
 		putchar(letters);
