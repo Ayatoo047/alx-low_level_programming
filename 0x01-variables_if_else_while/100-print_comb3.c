@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+ * main -Entry point
+ *
+ *Return: Always 0 for Success
+ */
+
+int main(void)
+{
+	int i, j;
+
+	for (i = '0'; i < '8'; i++)
+	{
+		for (j = i + 1; j <= 9; j++)
+		{
+			if (i != j)
+			{
+				putchar(i);
+				putchar(j);
+				putchar(",");
+			}
+		}
+	}
+}
