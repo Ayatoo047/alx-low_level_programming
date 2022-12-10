@@ -9,10 +9,12 @@ int main(void)
 	char alpha;
 	int num;
 
-	for (num = 48; num <= 57; num++){
+	for (num = 48; num <= 57; num++)
+	{
 		putchar(num);
 	}
-	for (alpha = 'a'; alpha <= 'f'; alpha++){
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	{
 		putchar(alpha);
 	}
 		putchar('\n');

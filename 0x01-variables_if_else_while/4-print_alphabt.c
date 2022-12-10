@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- *  * main - Entry piont
- *   *
- *    * Return: Always 0 (Success/correct)
- *     */
+ * main - Entry piont
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 
 {
 	char alphabet;
+
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		if (alphabet == 'e' || alphabet == 'q'){
+		if (alphabet == 'e' || alphabet == 'q')
+		{
 			continue;
 		}
 		putchar(alphabet);
