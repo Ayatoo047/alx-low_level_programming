@@ -8,9 +8,9 @@
  * Return 1 for lower
  */
 
-int checkLower(char letter)
+int checkLower(char c)
 {
-	if (islower(letter) > 0)
+	if (islower(c) > 0)
 		return(1);
 	else
 		return(0);
