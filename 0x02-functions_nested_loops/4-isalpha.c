@@ -8,7 +8,7 @@
  * Return 1 for lower
  */
 
-void checkLower(char letter)
+int checkLower(char letter)
 {
 	if (isalpha(letter) == 0)
 		return(0);
