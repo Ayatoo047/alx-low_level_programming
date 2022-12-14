@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-/**
 	_putchar('_')
 	_putchar('p')
 	_putchar('u')
@@ -17,7 +16,5 @@ int main(void)
 	_putchar('r')
 	-putchar('\n')
 
-*/
-	printf("_putchar")
 	return (0);
 }
