@@ -13,6 +13,7 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			int m;
+
 			m = i * j;
 			if (m >= 10)
 			{
