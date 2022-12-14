@@ -2,7 +2,8 @@
 #include <ctype.h>
 
 /**
- * checkLower - check if a character is lower
+ * _islower - check if a character is lower
+ * c - the chracter
  *
  * Return 0 for Upper
  * Return 1 for lower
