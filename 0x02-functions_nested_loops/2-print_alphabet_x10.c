@@ -5,7 +5,7 @@
  *
  * Return: Always 0 for success
  */
-char print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 	int j = 0;
