@@ -3,7 +3,7 @@
 
 /**
  * _islower - check if a character is lower
- * @c: the chracter
+ * @c: the character you pass
  *
  * Return: 0 for Upper Return 1 for lower
  */
