@@ -8,7 +8,7 @@
  * Return 1 for lower
  */
 
-int checkLower(char c)
+int _islower(char c)
 {
 	if (islower(c) > 0)
 		return(1);
