@@ -1,10 +1,11 @@
 #include "main.h"
-#include <ctype.h>
 
+/**
+ * _isupper - Entry point
+ * @c: integer to be passed
+ * Return: is upper or lower
+ */
 int _isupper(int c)
 {
-	if (isupper(c) > 0)
-		return (1);
-	else
-		return (0);
+	return (c >= 'A' && c <= 'Z');
 }

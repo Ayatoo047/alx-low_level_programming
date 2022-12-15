@@ -1,10 +1,10 @@
 #include "main.h"
-#include <ctype.h>
-
+/*
+ * _isdigit - function that check the parameter
+ * @c: the parameter to be passed
+ * Return: the parameter c
+ */
 int _isdigit(int c)
 {
-	if (c < 0)
-		return (0);
-	else if (c >= 0 && c <= 9)
-		return (0);
+	return (c >= '0' && c <= '9');
 }

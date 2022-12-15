@@ -1,8 +1,12 @@
 #include "main.h"
 
+/*
+ * mul - function that check the parameter
+ * @a: the parameter to be passed
+ * @b: second parameter
+ * Return: the return type
+ */
 int mul(int a, int b);
 {
-	int result;
-	result = a * b;
-	return (result);
+	return (a * b);
 }
