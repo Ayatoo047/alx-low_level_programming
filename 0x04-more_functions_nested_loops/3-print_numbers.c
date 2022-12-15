@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * print_numbers - print the number
+ *
+ * Return: Nothing
+ *
+ */
 void print_numbers(void)
 {
 	char i;

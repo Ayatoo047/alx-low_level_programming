@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * more_numbers - print the table of 14
  *
  * Return: Nothing

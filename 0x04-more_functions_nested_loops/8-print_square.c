@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_square - print the gretest number
  *
  * Return: Nothing

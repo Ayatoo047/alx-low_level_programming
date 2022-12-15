@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * _isdigit - function that check the parameter
+/**
+ *_isdigit - function that check if a parameter is a digit
  * @c: the parameter to be passed
  * Return: the parameter c
  */

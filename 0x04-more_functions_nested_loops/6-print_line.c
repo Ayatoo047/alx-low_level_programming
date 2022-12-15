@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_lines - print the lines
  *
  * Return: Nothing

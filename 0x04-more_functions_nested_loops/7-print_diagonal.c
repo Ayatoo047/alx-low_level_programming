@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
+/**
  * print_diagonal - print the diagonal
- *@n; the number of times
+ * @n; the number of times
  * Return: Nothing
  *
  */
