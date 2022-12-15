@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print the table of 14
- *
- * Return: Nothing
- *
+ * more_numbers - print the table of 14 in 10 places
  */
 
 void more_numbers(void)
