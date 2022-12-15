@@ -2,19 +2,20 @@
 
 /**
  * print_square - print the gretest number
- *
- * Return: Nothing
- *
+ * @size: size of the square
  */
 
 void print_square(int size)
 {
 	if (size <= 0)
-		putchar('\n')
+		putchar('\n');
 	else
-	{	for (size = size, size <= 0, size--)
+	{
+		int i, j;
+
+		for (i = 0; i < size; i++)
 		{
-			for (size = size, size <= 0, size--)
+			for (j = 0; j < size; j++)
 			{
 				_putchar('#');
 			}

@@ -3,7 +3,6 @@
 /**
  * more_numbers - print the table of 14 in 10 places
  */
-
 void more_numbers(void)
 {
 	int i, j;
@@ -11,7 +10,7 @@ void more_numbers(void)
 	j = 0;
 	while (j < 10)
 	{
-		for (i = 0; i >= 14 ; i++)
+		for (i = 0; i < 15; i++)
 		{
 			if (i >= 10)
 				_putchar(i / 10 + '0');

@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print the gretest number
- *
- * Return: Nothing
+ * main - Fizz Buzz
+ * Return: 0 for scuss
  *
  */
 
@@ -15,13 +14,16 @@ int main(void)
 	{
 		if (i % 5 == 0 && i % 3 == 0)
 			printf(" FizzBuzz");
-		else if (i % 3 = 0)
+		else if (i % 3 == 0)
 			printf(" Fizz");
-		else if (i % 5 = 0)
+		else if (i % 5 == 0)
 			printf(" Buzz");
 		else if (i == 1)
 			printf("%d", i);
 		else
 			printf(" %d", i);
 	}
+	print("\n");
+
+	return (0);
 }
