@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * mul - function that check the parameter
- * @a: the parameter to be passed
+ * @a: first parameter
  * @b: second parameter
  * Return: the return type
  */
