@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - function that check the parameter
+ * mul - Entry point
  * @a: first parameter
  * @b: second parameter
  * Return: the return type
