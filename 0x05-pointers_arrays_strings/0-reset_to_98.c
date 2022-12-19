@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - the function that change the value of a pointer
  *
- * @*n: the pointer passed
+ * @n: the pointer passed
  * Return: Always 0.
  */
 
