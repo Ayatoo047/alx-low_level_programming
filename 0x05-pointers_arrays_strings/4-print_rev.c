@@ -2,7 +2,7 @@
 /**
  * print_rev - print reverse
  *
- * @*s: the parameter
+ * @s: the parameter
  * Return: always 0
  */
 
@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (i < strlen(&s); i <= 0; i--)
 	{
-		_putchar("%s", s[i])
+		_putchar("%s", s[i]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }

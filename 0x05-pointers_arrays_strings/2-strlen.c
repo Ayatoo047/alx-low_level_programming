@@ -2,11 +2,11 @@
 
 /**
  * _strlen - returns the lenght
- * @*s: the parameter
+ * @s: the parameter
  * Return: always 0
  */
 
 int _strlen(char *s)
 {
-	return strlen(*s)
+	return (strlen(*s));
 }
