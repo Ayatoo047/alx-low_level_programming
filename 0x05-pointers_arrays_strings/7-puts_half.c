@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * puts_half - to print half of sentemce
  * @str: pointer to an int
@@ -20,8 +20,8 @@ void puts_half(char *str)
 
 	for (i = last; str[i]; i++)
 	{
-		_putchar (str[i]);
+		putchar (str[i]);
 	}
-	_putchar ('\n');
+	putchar ('\n');
 }
 

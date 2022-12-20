@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_rev - to print in reverse order
  * @s: pointer to  int
@@ -9,11 +9,13 @@
 void print_rev(char *s)
 {
 	int i;
+	char *str;
 
+	str = s;
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (a % 2 == 0)
-		_putchar (str[a]);
+		putchar (str[a]);
 	}
-	_putchar ('\n');
+	putchar ('\n');
 }
