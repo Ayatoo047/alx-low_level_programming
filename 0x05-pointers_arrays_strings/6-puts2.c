@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * puts2 - to print 
- *  @str: pointer to  int
- *
- * Return: Always return 0.
+ * puts2 - to print
+ * @str: pointer to  int
+  * Return: Always return 0.
  */
 void puts2(char *str)
 {
