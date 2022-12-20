@@ -6,16 +6,16 @@
  *
  * Return: Always return 0.
  */
-void print_rev(char *s)
+void puts2(char *str)
 {
 	int i;
-	char *str;
+	char *s;
 
-	str = s;
-	for (i = 0; str[i] != '\0'; i++)
+	s = str;
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
-		putchar (str[i]);
+		putchar (s[i]);
 	}
 	putchar ('\n');
 }
