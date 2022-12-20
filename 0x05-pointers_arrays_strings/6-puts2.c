@@ -15,7 +15,7 @@ void print_rev(char *s)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
-		putchar (str[a]);
+		putchar (str[i]);
 	}
 	putchar ('\n');
 }
