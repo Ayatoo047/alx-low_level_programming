@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_rev - to print in reverse order
- * @s: pointer to  int
+ * puts2 - to print 
+ *  @str: pointer to  int
  *
  * Return: Always return 0.
  */
