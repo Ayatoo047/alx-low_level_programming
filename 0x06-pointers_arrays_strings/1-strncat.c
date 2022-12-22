@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			break;
 		}
-		m++
+		m++;
 	}
 
 	for (i = 0; src[i] != '\0' && i < n; i++)
