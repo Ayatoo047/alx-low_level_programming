@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * * factorial - Prints the string in reverse order
- * * @n: string to be reversed
- * * Return: the length of the string
- * * description: does the shit
- * */
+ * factorial - Prints the string in reverse order
+ * @n: string to be reversed
+ * Return: the length of the string
+ * description: does the shit
+ */
 int factorial(int n)
 {
 	int x;
