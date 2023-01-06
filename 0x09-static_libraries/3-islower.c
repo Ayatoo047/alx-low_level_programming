@@ -1,16 +1,14 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- * _islower - check if a character is lower
- * @c: the character you pass
- *
- * Return: 0 for Upper Return 1 for lower
+ * _islower - Entry point
+ * @c: Value tou be provided
+ * Return: nothing
  */
 
-int _islower(char c)
+int _islower(int c)
 {
-	if (islower(c) > 0)
+	if (c > 'a' && c < 'z')
 		return (1);
 	else
 		return (0);

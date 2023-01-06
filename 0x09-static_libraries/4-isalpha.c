@@ -1,16 +1,14 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
- * _isalpha - check if a character is lower
- * @c: the argument
- * Return: 0 for Upper Return 1 for lower
+ * _isalpha - Entry function
+ * @c: the parameter to be passed
+ * Return: nothing
  */
-
-int _isalpha(char c)
+int _isalpha(int c)
 {
-	if (isalpha(c) == 0)
-		return (0);
-	else
+	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 		return (1);
+	else
+		return (0);
 }
