@@ -31,4 +31,5 @@ char *argstostr(int ac, char **av)
 		concat[k] = '\0';
 		return (concat);
 	}
+	return (0);
 }
